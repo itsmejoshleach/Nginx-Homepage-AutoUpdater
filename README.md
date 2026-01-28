@@ -61,10 +61,3 @@ Prefer API tokens where possible
 Do not commit .env
 
 ---
-
-## 5️⃣ Important Pi-hole Notes (worth knowing)
-
-- Pi-hole **does not allow CNAME → IP**, only **CNAME → hostname**  
-  ✅ Your `proxy.internal` approach is correct
-- Existing records are **not duplicated**
-- Changes apply immediately (no gravity rebuild needed)
